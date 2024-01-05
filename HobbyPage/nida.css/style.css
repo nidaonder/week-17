@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    color: #B0A695;
+    background: #F9F5E7;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    line-height: 1.5;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: #A7727D;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+nav ul {
+    border-top: 1px solid #A7727D ;
+    border-bottom: 1px solid #A7727D ;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    margin: 20px 0;
+    display: inline-block;
+    margin: 0, auto;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #B0A695;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: #A7727D;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.images img {
+    flex: 1;
+    max-width: 15%;
+}
+section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #B0A695;
+    color: #F9F5E7;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+.contact,
+.copyright {
+    display: inline-block;
+    line-height: 2px;
+    word-spacing: 5px;
+}
+  
+.contact address {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+  
+.contact a,
+.copyright p {
+    font-size: 12px;
+    color: #F9F5E7;
+    text-align: center;
+}
+
+.about-article {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-article p {
+    margin: 40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box {
+    width: 350px;
+    text-align: center;
+    margin: 20px;
+}
+
+.flex-box li {
+    list-style: none;
+}
+
+address a{
+    color: #B0A695;
+}
